@@ -1,0 +1,18 @@
+For customers:
+
+get a broken item -> call the service from website or apps -> the deliver car will come and recieve the item -> waiting for the result
+                  -> if the first repair shop can't fix it, post office will ask customer whether to send it to the next repair shop
+                  	-> if yes, the item will be sent to next repair shop (freight fee keep as same amount)
+                   	-> if no, the item will be sent back to customer and still need to pay freight fee
+                  -> if the item have some accidents during the transport, post office will have an upper bound for compensation (decide by the product's type)
+           -> after the item be fixed, item will be sent back to customers and deliver car get the payment for post office
+
+
+For post office:
+
+get a lot of service requirment -> plan the best route to take the item (from customer) -> take the item from customers
+                                -> plan the best route to send it to repair shop -> send items to repair shops
+                                -> plan the best route to take it back from repair shop -> take it back from repair shops and pay the payment for customers first
+                                	-> if the repair shop can't fix it, ask customer whether to send to next shop or send it back       
+                                -> plan the best route to send it back to customers -> send it back to customers -> take the payment from customer (freight fee and repair cost) 
+                                -> finish the daily work, take the payment back to post office and report the daily summary        
